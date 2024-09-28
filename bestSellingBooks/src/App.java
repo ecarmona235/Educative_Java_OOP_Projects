@@ -32,7 +32,8 @@ public class App {
 
         // Task 5: Retrive all books by an author and their prices
         HashMap<String, String> titleHashmap = utils.allBooksAndPricesByAnAuthor(books, testAuthor);
-        titleHashmap.forEach((k,v) -> System.out.println(k + " = " + v));
+        System.out.println(titleHashmap.size());
+        // titleHashmap.forEach((k,v) -> System.out.println(k + " = " + v));
 
     }
 }
